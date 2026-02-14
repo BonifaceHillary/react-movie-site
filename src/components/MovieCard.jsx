@@ -1,7 +1,8 @@
 function MovieCard({}) {
 
-return <div>
+return <div className="movie-card">
   
+
 </div>
 
 }
