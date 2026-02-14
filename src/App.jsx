@@ -1,12 +1,14 @@
 
 import './App.css'
+import MovieCard from './components/MovieCard'
 
 function App() {
 
   return (
-    <div>
-      <p>hello there!!!</p>
-    </div>
+    <>
+    
+    <MovieCard movie={{title: "Tim's films", release_date: "2026"}}/>
+    </>
   
   )
 }
